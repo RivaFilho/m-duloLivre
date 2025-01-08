@@ -1,4 +1,4 @@
-import pygame 
+import pygame
 import sys
 import time
 import random
@@ -160,7 +160,7 @@ class Game:
             pygame.display.flip()
 
     def select_difficulty(self):
-        font = pygame.font.SysFont('times new roman', 40)
+        font = pygame.font.SysFont('times new roman', 30)
         difficulties = ["Fácil", "Médio", "Difícil", "Impossível"]
         buttons = []
 
@@ -273,36 +273,36 @@ class Game:
                         
     def game_over_screen(self):
         self.player.update_score(self.score, self.difficulty)
-        font = pygame.font.SysFont('times new roman', 40)
+        font = pygame.font.SysFont('times new roman', 30)
 
         retry_button = {
-            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 - 50, 200, 50),
-            'color': pygame.Color('green'),
-            'text': 'Retry',
+            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 - 80, 200, 50),
+            'color': pygame.Color('blue'),
+            'text': 'Tentar nov',
             'font': font
         }
         logout_button = {
-            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 + 20, 200, 50),
+            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 - 10, 200, 50),
             'color': pygame.Color('blue'),
             'text': 'Logout',
             'font': font
         }
         exit_button = {
-            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 + 90, 200, 50),
+            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 + 60, 200, 50),
             'color': pygame.Color('red'),
-            'text': 'Exit',
+            'text': 'Sair',
             'font': font
         }
         scores_button = {
-            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 + 160, 200, 50),
-            'color': pygame.Color('yellow'),
+            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 + 130, 200, 50),
+            'color': pygame.Color('blue'),
             'text': 'Scores',
             'font': font
         }
         difficulty_button = {
-            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 + 230, 200, 50),
-            'color': pygame.Color('orange'),
-            'text': 'Change Difficulty',
+            'rect': pygame.Rect(self.frame_size_x / 3, self.frame_size_y / 2 + 200, 200, 50),
+            'color': pygame.Color('blue'),
+            'text': 'Dificuldade',
             'font': font
         }
 
