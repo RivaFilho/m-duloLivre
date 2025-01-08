@@ -1,0 +1,30 @@
+{
+    "joao": {
+        "high_score": 5
+    },
+    "k": {
+        "high_score": 0
+    },
+    "hh\r\r": {
+        "high_score": 3
+    },
+    "tres oitao": {
+        "high_score": 4
+    },
+    "OO": {
+        "scores": {
+            "F\u00e1cil": 1,
+            "M\u00e9dio": 11,
+            "Dif\u00edcil": 1,
+            "Imposs\u00edvel": 0
+        }
+    },
+    "POP": {
+        "scores": {
+            "F\u00e1cil": 1,
+            "M\u00e9dio": 0,
+            "Dif\u00edcil": 0,
+            "Imposs\u00edvel": 0
+        }
+    }
+}
